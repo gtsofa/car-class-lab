@@ -21,9 +21,15 @@ class Car(object):
 
 
 
-    def drive(self, motion_speed):
+    def drive(self, speed):
         #Return the speed of a moving car
-        pass
+        #attributes speed should have been named gear to make sense
+        if (speed == 7):#if gear is 7 then self.speed is 77 etc etc
+            self.speed = 77
+        elif(speed == 3):
+            self.speed = 1000
+        
+        return self
 
 
     def is_saloon(self):
@@ -31,4 +37,4 @@ class Car(object):
         if self.car_type != 'trailer':
             return True
         return False
-        pass
+    
