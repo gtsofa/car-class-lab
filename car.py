@@ -23,7 +23,7 @@ class Car(object):
 
     def drive(self, motion_speed):
         #Return the speed of a moving car
-        pass
+        return self
 
 
     def is_saloon(self):
@@ -31,4 +31,3 @@ class Car(object):
         if self.car_type != 'trailer':
             return True
         return False
-        pass
