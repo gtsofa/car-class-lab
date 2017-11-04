@@ -23,7 +23,7 @@ class Car(object):
 
     def drive(self, motion_speed):
         #Return the speed of a moving car
-        return self
+        pass
 
 
     def is_saloon(self):
